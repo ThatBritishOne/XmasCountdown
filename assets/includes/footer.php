@@ -5,7 +5,7 @@
             <ul class="footer-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="">GitHub</a></li>
+                <li><a href="https://github.com/ThatBritishOne/XmasCountdown">GitHub</a></li>
             </ul>
         </div>
         <div class="col col-lg-4">
