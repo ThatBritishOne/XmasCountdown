@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body {
+    background: url("../imgs/bg.png") no-repeat fixed center;
+    background-size: 1920px 1920px;
+}
+
+.header {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+    color: #BD2B29;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header img {
+    max-width: 25%;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.xmas-card {
+    margin-top: 25px;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    padding: 40px 0;
+    border-radius: 25px;
+}
+
+.countdown .number {
+    font-family: "Dosis", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.countdown .text {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: #fff;
+}
+
+.privacy .title, .tos .title {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.privacy .text, .tos .text {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+}
+
+.tos ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.footer {
+    backdrop-filter: blur(3px);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer .title {
+    font-family: "Dosis", sans-serif;
+    font-weight: 600;
+    color: #BD2B29;
+    font-size: 30px;
+}
+
+.footer .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer .footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: 200ms all;
+}
+
+.footer .footer-links a:hover {
+    color: #ccc;
+}
+
+.footer .footer-links .small {
+    font-size: 10px;
+}
